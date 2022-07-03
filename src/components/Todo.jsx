@@ -104,6 +104,10 @@ const Todo = () => {
   }
 
   useEffect(()=>{
+    document.title = 'CRUD-Todo App';
+  }, [])
+
+  useEffect(()=>{
     getData(page);
   },[page])
 
