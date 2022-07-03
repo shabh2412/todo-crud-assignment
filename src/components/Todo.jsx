@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Button from "./Button";
 import InputGroup from "./InputGroup";
-import TodoItem from "./TodoItem";
+import TodoList from "./TodoList";
 
 const Todo = () => {
   const [text, setText] = useState('');
@@ -156,21 +156,7 @@ const Todo = () => {
                   </p>
                 </div>
             </div> : 
-            todos.length === 0 ? <div className="row my-2 border">
-              <div className="col">
-                <h3>
-                  No more items left
-                </h3>
-              </div>
-            </div> :
-            todos.map((task) => (
-              <TodoItem 
-                key={task.id+""+task.title} 
-                task={task} 
-                handleDelete={()=>{handleDelete(task.id)}}
-                handleUpdate={()=>{handleUpdate(task.id, task.status)}}
-                />
-            ))
+            <TodoList todos={todos} handleDelete={handleDelete} handleUpdate={handleUpdate}/>
             }
           </div>
         </div>
