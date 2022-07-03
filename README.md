@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# CRUD Todo App using react.js
+
+Active Link: [Todo App](https://shabh2412.github.io/todo-crud-assignment/).
+Server Link: [JSON-SERVER](https://rishabh-mock-server.herokuapp.com/todos).
+
+Tech Stack: **React.js**, **Bootstrap**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
