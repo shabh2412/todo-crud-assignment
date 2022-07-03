@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/todo-crud-assignment/static/css/main.036fde87.css",
-    "main.js": "/todo-crud-assignment/static/js/main.32fda4ca.js",
+    "main.js": "/todo-crud-assignment/static/js/main.44b10fd8.js",
     "static/js/787.e3450b28.chunk.js": "/todo-crud-assignment/static/js/787.e3450b28.chunk.js",
     "index.html": "/todo-crud-assignment/index.html",
     "main.036fde87.css.map": "/todo-crud-assignment/static/css/main.036fde87.css.map",
-    "main.32fda4ca.js.map": "/todo-crud-assignment/static/js/main.32fda4ca.js.map",
+    "main.44b10fd8.js.map": "/todo-crud-assignment/static/js/main.44b10fd8.js.map",
     "787.e3450b28.chunk.js.map": "/todo-crud-assignment/static/js/787.e3450b28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.036fde87.css",
-    "static/js/main.32fda4ca.js"
+    "static/js/main.44b10fd8.js"
   ]
 }
